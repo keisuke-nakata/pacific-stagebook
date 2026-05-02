@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="太平洋岸自転車道を分割走破するための計画台帳">
+    <title>pacific-stagebook</title>
+    <link rel="icon" href="data:,">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="container header-grid">
+        <div>
+          <p class="eyebrow">Pacific Cycling Road</p>
+          <h1>pacific-stagebook</h1>
+          <p class="lede">銚子から和歌山へ、段階的に走破するための計画台帳。</p>
+        </div>
+        <div class="header-actions">
+          <a class="source-link" href="https://www.kkr.mlit.go.jp/road/pcr/map/index.html" rel="noreferrer" target="_blank">公式ルート</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container actual-overview">
+        <section class="journey-section actual-section">
+          <div class="section-head compact">
+            <h2>実績</h2>
+            <p>全体ルートの走破率。</p>
+          </div>
+          <div class="actual-overview-grid">
+            <div id="actualStats" class="stats-grid single-stat"></div>
+            <div class="progress-shell inline-progress">
+              <div class="progress-head">
+                <h3>走破状況</h3>
+                <p id="progressSummary"></p>
+              </div>
+              <div id="progressBar" class="progress-bar" aria-label="route completion"></div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="container plan-overview">
+        <section class="journey-section plan-section">
+          <div class="plan-overview-head">
+            <div class="section-head compact">
+              <h2 id="planTitle">計画</h2>
+              <p id="planNote"></p>
+            </div>
+            <label class="plan-select-box" for="planSelect">
+              <span>計画を切り替える</span>
+              <select id="planSelect"></select>
+            </label>
+          </div>
+          <div class="plan-overview-grid">
+            <div id="planStats" class="stats-grid journey-stats"></div>
+            <div>
+              <h3>移動・宿泊</h3>
+              <div id="planLogistics" class="plan-logistics"></div>
+            </div>
+            <div>
+              <h3>通過チェックポイント</h3>
+              <div id="builderList" class="builder-list"></div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="container journey-board">
+        <div class="map-panel journey-map-panel">
+          <div class="section-head">
+            <h2>旅程地図</h2>
+            <p id="routeMeta"></p>
+          </div>
+          <div class="map-shell">
+            <div id="routeMap" class="route-map" aria-label="Pacific Cycling Road route map"></div>
+            <div class="map-legend" aria-label="map legend">
+              <span><i class="legend-line route"></i>公式KML</span>
+              <span><i class="legend-line plan"></i>計画</span>
+              <span><i class="legend-line done"></i>走破済み</span>
+              <span><i class="legend-dot"></i>チェックポイント</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container data-panel full-width">
+        <div class="section-head">
+          <h2>区間台帳</h2>
+          <p>Dayごとの合計距離を50-70km標準、70km超注意、90km超強い警告として表示。</p>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>日程</th>
+                <th>区間</th>
+                <th>距離</th>
+                <th>宿泊・休憩</th>
+                <th>離脱・補給</th>
+              </tr>
+            </thead>
+            <tbody id="segmentBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="container data-panel full-width checkpoint-panel">
+        <div class="section-head">
+          <h2>チェックポイント</h2>
+          <p>海沿いの区切りと最寄り交通拠点を分けて管理。</p>
+        </div>
+        <div class="table-scroll checkpoint-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>累積</th>
+                <th>差分</th>
+                <th>地点</th>
+                <th>交通</th>
+                <th>アクセス（往/復）</th>
+              </tr>
+            </thead>
+            <tbody id="checkpointBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container footer-grid">
+        <span>Data: JSON in repository. Hosting: GitHub Pages.</span>
+        <span>Last updated: <span id="lastUpdated"></span></span>
+      </div>
+    </footer>
+
+    <noscript>このツールはJavaScriptを有効にして閲覧してください。</noscript>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script type="module" src="./src/app.js?v=20260502-13"></script>
+  </body>
+</html>

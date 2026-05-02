@@ -1,0 +1,797 @@
+[
+  {
+    "id": "choshi",
+    "name": "銚子",
+    "lat": 35.7296,
+    "lng": 140.8275,
+    "routeKm": 0,
+    "nodeType": "start",
+    "nearestTransit": {
+      "name": "銚子駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "全体ルートの起点。初回の集合地候補。"
+  },
+  {
+    "id": "kazusa-ichinomiya",
+    "name": "上総一ノ宮",
+    "lat": 35.3739,
+    "lng": 140.3628,
+    "routeKm": 80,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "上総一ノ宮駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "初回ゴール候補。日帰り80kmで標準より長い。"
+  },
+  {
+    "id": "ohara",
+    "name": "大原",
+    "lat": 35.2517,
+    "lng": 140.392,
+    "routeKm": 102,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "大原駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "上総一ノ宮から勝浦の中間候補。短距離分割や悪天候時の離脱点。"
+  },
+  {
+    "id": "onjuku",
+    "name": "御宿",
+    "lat": 35.1882,
+    "lng": 140.3516,
+    "routeKm": 116,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "御宿駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "勝浦手前の細かい区切り。日帰り短縮や昼休憩候補。"
+  },
+  {
+    "id": "katsuura",
+    "name": "勝浦",
+    "lat": 35.1523,
+    "lng": 140.3201,
+    "routeKm": 125,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "勝浦駅",
+      "type": "rail",
+      "walkMin": 8
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "外房線で離脱しやすい区切り。"
+  },
+  {
+    "id": "kamogawa",
+    "name": "鴨川",
+    "lat": 35.1074,
+    "lng": 140.1038,
+    "routeKm": 158,
+    "nodeType": "rail-lodging",
+    "nearestTransit": {
+      "name": "安房鴨川駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "勝浦と館山の間の重要な分割候補。宿泊・補給・離脱を組み込みやすい。"
+  },
+  {
+    "id": "chikura",
+    "name": "千倉",
+    "lat": 34.9767,
+    "lng": 139.9548,
+    "routeKm": 193,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "千倉駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "南房総側の中間候補。鴨川から館山を細かく刻むための候補。"
+  },
+  {
+    "id": "tateyama",
+    "name": "館山",
+    "lat": 34.9965,
+    "lng": 139.8699,
+    "routeKm": 211,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "館山駅",
+      "type": "rail",
+      "walkMin": 8
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "南房総側の宿泊・日帰り切り替え候補。"
+  },
+  {
+    "id": "tomiura",
+    "name": "富浦",
+    "lat": 35.0461,
+    "lng": 139.8386,
+    "routeKm": 231,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "富浦駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "館山と金谷港の中間候補。フェリー接続前の短縮・離脱点。"
+  },
+  {
+    "id": "kanaya-port",
+    "name": "金谷港",
+    "lat": 35.1688,
+    "lng": 139.8197,
+    "routeKm": 249,
+    "nodeType": "ferry",
+    "nearestTransit": {
+      "name": "浜金谷駅 / 金谷港",
+      "type": "rail-ferry",
+      "walkMin": 8
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "東京湾フェリー接続。輪行袋利用と自転車積載で費用が変わる。"
+  },
+  {
+    "id": "kurihama-port",
+    "name": "久里浜港",
+    "lat": 35.2248,
+    "lng": 139.7208,
+    "routeKm": 261,
+    "nodeType": "ferry",
+    "nearestTransit": {
+      "name": "京急久里浜駅 / 久里浜港",
+      "type": "rail-ferry",
+      "walkMin": 25
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "東京湾フェリーの神奈川側。港から駅までの移動時間を別途見る。"
+  },
+  {
+    "id": "miura-coast",
+    "name": "ソレイユの丘",
+    "lat": 35.1884,
+    "lng": 139.6536,
+    "routeKm": 276,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "三崎口駅 / ソレイユの丘",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "久里浜港からの区間は過去走破済み。今後の計画では金谷港後の再開地点として扱う。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "kamakura",
+    "name": "鎌倉",
+    "lat": 35.3192,
+    "lng": 139.5467,
+    "routeKm": 296,
+    "nodeType": "tourism-rail",
+    "nearestTransit": {
+      "name": "鎌倉駅",
+      "type": "rail",
+      "walkMin": 12
+    },
+    "notes": "三浦半島と湘南の間の観光・合流候補。混雑時間帯に注意。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "enoshima",
+    "name": "江の島",
+    "lat": 35.2993,
+    "lng": 139.4803,
+    "routeKm": 306,
+    "nodeType": "tourism-rail",
+    "nearestTransit": {
+      "name": "片瀬江ノ島駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/index.html",
+    "notes": "湘南の観光・休憩候補。混雑と時間帯に注意。"
+  },
+  {
+    "id": "chigasaki",
+    "name": "茅ヶ崎",
+    "lat": 35.3308,
+    "lng": 139.4071,
+    "routeKm": 322,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "茅ヶ崎駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "notes": "江の島と小田原の間を細かく切る湘南側候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "hiratsuka",
+    "name": "平塚",
+    "lat": 35.3279,
+    "lng": 139.3503,
+    "routeKm": 334,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "平塚駅",
+      "type": "rail",
+      "walkMin": 12
+    },
+    "notes": "湘南西側の離脱・集合候補。小田原まで短く刻める。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "odawara",
+    "name": "小田原",
+    "lat": 35.2564,
+    "lng": 139.1549,
+    "routeKm": 348,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "小田原駅",
+      "type": "rail",
+      "walkMin": 12
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "小田原拠点。神奈川から伊豆への区切り。"
+  },
+  {
+    "id": "manazuru",
+    "name": "真鶴",
+    "lat": 35.1569,
+    "lng": 139.1376,
+    "routeKm": 367,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "真鶴駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "小田原から熱海方面へ入る前後の短縮候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "atami",
+    "name": "熱海",
+    "lat": 35.1036,
+    "lng": 139.0778,
+    "routeKm": 384,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "熱海駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "東海道線・伊東線の結節点。伊豆区間の開始・終了候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "ito",
+    "name": "伊東",
+    "lat": 34.9742,
+    "lng": 139.0923,
+    "routeKm": 406,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "伊東駅",
+      "type": "rail",
+      "walkMin": 8
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "伊豆半島入口。伊豆急行線の自転車持ち込み条件を要確認。"
+  },
+  {
+    "id": "izu-kogen",
+    "name": "伊豆高原",
+    "lat": 34.8771,
+    "lng": 139.1065,
+    "routeKm": 428,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "伊豆高原駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "伊東と下田の間の起伏区間を細かく切る候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "kawazu",
+    "name": "河津",
+    "lat": 34.7474,
+    "lng": 138.9955,
+    "routeKm": 459,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "河津駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "東伊豆後半の離脱・休憩候補。下田まで短く刻める。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "shimoda",
+    "name": "下田",
+    "lat": 34.6795,
+    "lng": 138.9455,
+    "routeKm": 478,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "伊豆急下田駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "伊豆半島南端側の主要区切り。"
+  },
+  {
+    "id": "matsuzaki",
+    "name": "松崎",
+    "lat": 34.7521,
+    "lng": 138.7788,
+    "routeKm": 522,
+    "nodeType": "bus-lodging",
+    "nearestTransit": {
+      "name": "松崎バスターミナル",
+      "type": "bus",
+      "walkMin": 8
+    },
+    "notes": "西伊豆の宿泊候補。鉄道が薄いため交通条件は別途確認。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "toi-port",
+    "name": "土肥港",
+    "lat": 34.909,
+    "lng": 138.7936,
+    "routeKm": 562,
+    "nodeType": "ferry",
+    "nearestTransit": {
+      "name": "土肥港",
+      "type": "ferry",
+      "walkMin": 5
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "駿河湾フェリー接続。予約・台数制限を確認。"
+  },
+  {
+    "id": "numazu",
+    "name": "沼津",
+    "lat": 35.0956,
+    "lng": 138.8635,
+    "routeKm": 574,
+    "nodeType": "rail-lodging",
+    "nearestTransit": {
+      "name": "沼津駅",
+      "type": "rail",
+      "walkMin": 12
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "駿河湾北側を自走する場合の重要な宿泊・離脱候補。土肥港-清水港フェリーの代替案として扱う。"
+  },
+  {
+    "id": "fuji",
+    "name": "富士",
+    "lat": 35.151,
+    "lng": 138.676,
+    "routeKm": 584,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "富士駅 / 吉原駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "沼津と清水港の間を細かく切る候補。富士市街・田子の浦周辺の補給を検討。"
+  },
+  {
+    "id": "shimizu-port",
+    "name": "清水港",
+    "lat": 35.0229,
+    "lng": 138.4897,
+    "routeKm": 593,
+    "nodeType": "ferry-rail",
+    "nearestTransit": {
+      "name": "清水駅 / 清水港",
+      "type": "rail-ferry",
+      "walkMin": 20
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "駿河湾フェリーの東海道側。"
+  },
+  {
+    "id": "mochimune",
+    "name": "用宗",
+    "lat": 34.9224,
+    "lng": 138.3609,
+    "routeKm": 625,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "用宗駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "清水港と焼津の間の短距離調整候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "yaizu",
+    "name": "焼津",
+    "lat": 34.8729,
+    "lng": 138.3189,
+    "routeKm": 650,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "焼津駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "駿河湾沿いの日帰り切り替え候補。"
+  },
+  {
+    "id": "omaezaki",
+    "name": "御前崎",
+    "lat": 34.6383,
+    "lng": 138.1288,
+    "routeKm": 704,
+    "nodeType": "lodging-node",
+    "nearestTransit": {
+      "name": "御前崎市街",
+      "type": "bus",
+      "walkMin": 15
+    },
+    "notes": "焼津と浜松の長い区間を分割する宿泊候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "iwata",
+    "name": "磐田",
+    "lat": 34.7108,
+    "lng": 137.8515,
+    "routeKm": 735,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "磐田駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "notes": "遠州灘区間の離脱・短縮候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "hamamatsu",
+    "name": "浜松",
+    "lat": 34.7046,
+    "lng": 137.7344,
+    "routeKm": 760,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "浜松駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "notes": "静岡西部の主要交通結節点。"
+  },
+  {
+    "id": "kosai",
+    "name": "湖西",
+    "lat": 34.7184,
+    "lng": 137.5317,
+    "routeKm": 785,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "新居町駅 / 鷲津駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "notes": "浜名湖西側の調整候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "toyohashi",
+    "name": "豊橋",
+    "lat": 34.7628,
+    "lng": 137.3817,
+    "routeKm": 805,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "豊橋駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "notes": "東海道新幹線・在来線の大きな交通結節点。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "tahara",
+    "name": "田原",
+    "lat": 34.6668,
+    "lng": 137.2653,
+    "routeKm": 818,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "三河田原駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "渥美半島の途中区切り。伊良湖岬まで短く刻める。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "irago",
+    "name": "伊良湖岬",
+    "lat": 34.5805,
+    "lng": 137.0262,
+    "routeKm": 832,
+    "nodeType": "ferry",
+    "nearestTransit": {
+      "name": "伊良湖港",
+      "type": "ferry-bus",
+      "walkMin": 8
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "伊勢湾フェリー接続。バス代替は輪行条件の確認が必要。"
+  },
+  {
+    "id": "toba",
+    "name": "鳥羽",
+    "lat": 34.4868,
+    "lng": 136.8435,
+    "routeKm": 856,
+    "nodeType": "ferry-rail",
+    "nearestTransit": {
+      "name": "鳥羽駅 / 鳥羽港",
+      "type": "rail-ferry",
+      "walkMin": 12
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "伊勢湾フェリーの三重側。"
+  },
+  {
+    "id": "ise",
+    "name": "伊勢",
+    "lat": 34.491,
+    "lng": 136.709,
+    "routeKm": 875,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "伊勢市駅",
+      "type": "rail",
+      "walkMin": 12
+    },
+    "notes": "鳥羽から南下する前の大きな交通・宿泊候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "shima",
+    "name": "志摩",
+    "lat": 34.328,
+    "lng": 136.829,
+    "routeKm": 910,
+    "nodeType": "rail-lodging",
+    "nearestTransit": {
+      "name": "鵜方駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "notes": "伊勢志摩区間の中間宿泊候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "kiinagashima",
+    "name": "紀伊長島",
+    "lat": 34.209,
+    "lng": 136.337,
+    "routeKm": 948,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "紀伊長島駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "鳥羽と尾鷲の長い区間を分割する東紀州側候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "owase",
+    "name": "尾鷲",
+    "lat": 34.0712,
+    "lng": 136.1906,
+    "routeKm": 980,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "尾鷲駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/trouble/cycleshop.html",
+    "notes": "東紀州の長い区間の中間拠点。"
+  },
+  {
+    "id": "kumano",
+    "name": "熊野",
+    "lat": 33.8887,
+    "lng": 136.1004,
+    "routeKm": 1012,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "熊野市駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "尾鷲と新宮の中間候補。七里御浜沿いの区切り。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "shingu",
+    "name": "新宮",
+    "lat": 33.724,
+    "lng": 135.993,
+    "routeKm": 1044,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "新宮駅",
+      "type": "rail",
+      "walkMin": 8
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "きのくに線・くろしおサイクル条件の確認候補。"
+  },
+  {
+    "id": "kii-katsuura",
+    "name": "紀伊勝浦",
+    "lat": 33.6259,
+    "lng": 135.9415,
+    "routeKm": 1066,
+    "nodeType": "rail-lodging",
+    "nearestTransit": {
+      "name": "紀伊勝浦駅",
+      "type": "rail",
+      "walkMin": 8
+    },
+    "notes": "新宮と串本の間の宿泊・観光候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "kushimoto",
+    "name": "串本",
+    "lat": 33.4725,
+    "lng": 135.7812,
+    "routeKm": 1102,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "串本駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "本州最南端側の区切り。"
+  },
+  {
+    "id": "susami",
+    "name": "すさみ",
+    "lat": 33.5508,
+    "lng": 135.4967,
+    "routeKm": 1134,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "周参見駅",
+      "type": "rail",
+      "walkMin": 8
+    },
+    "notes": "串本と白浜の間の中間候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "shirahama",
+    "name": "白浜",
+    "lat": 33.6782,
+    "lng": 135.3484,
+    "routeKm": 1167,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "白浜駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "宿泊・観光を組み込みやすい候補。"
+  },
+  {
+    "id": "tanabe",
+    "name": "田辺",
+    "lat": 33.7336,
+    "lng": 135.3835,
+    "routeKm": 1190,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "紀伊田辺駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "白浜と御坊の間の大きな交通・宿泊候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "minabe",
+    "name": "南部",
+    "lat": 33.7726,
+    "lng": 135.3217,
+    "routeKm": 1205,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "南部駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "田辺と御坊の間の短距離調整候補。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "gobo",
+    "name": "御坊",
+    "lat": 33.9071,
+    "lng": 135.1605,
+    "routeKm": 1240,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "御坊駅",
+      "type": "rail",
+      "walkMin": 12
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "notes": "きのくに線サイクルトレイン区間の境目として重要。"
+  },
+  {
+    "id": "yuasa",
+    "name": "湯浅",
+    "lat": 34.0334,
+    "lng": 135.1776,
+    "routeKm": 1275,
+    "nodeType": "rail-node",
+    "nearestTransit": {
+      "name": "湯浅駅",
+      "type": "rail",
+      "walkMin": 10
+    },
+    "notes": "御坊と和歌山の間の中間候補。歴史地区の立ち寄りも検討しやすい。",
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html"
+  },
+  {
+    "id": "wakayama",
+    "name": "和歌山",
+    "lat": 34.2322,
+    "lng": 135.1918,
+    "routeKm": 1487,
+    "nodeType": "finish",
+    "nearestTransit": {
+      "name": "和歌山市駅 / 和歌山駅",
+      "type": "rail",
+      "walkMin": 15
+    },
+    "sourceUrl": "https://www.kkr.mlit.go.jp/road/pcr/index.html",
+    "notes": "太平洋岸自転車道の終点。"
+  }
+]

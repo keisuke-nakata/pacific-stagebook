@@ -1,0 +1,1652 @@
+[
+  {
+    "id": "choshi-kazusa-ichinomiya",
+    "fromCheckpointId": "choshi",
+    "toCheckpointId": "kazusa-ichinomiya",
+    "distanceKm": 80,
+    "estimatedRideHours": 5.5,
+    "difficulty": "long-day-trip",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "旭・九十九里周辺で昼休憩候補を精査"
+    ],
+    "sights": [
+      "九十九里浜",
+      "犬吠埼周辺"
+    ],
+    "bailoutPoints": [
+      "旭駅",
+      "成東駅",
+      "東金駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページの千葉県リストを要確認"
+    ],
+    "lodgingNotes": "日帰り予定。標準距離より長いため往路移動と復路時刻を優先確認。",
+    "weatherNotes": "海沿いの風が強い場合は速度低下を見込む。"
+  },
+  {
+    "id": "kazusa-ichinomiya-katsuura",
+    "fromCheckpointId": "kazusa-ichinomiya",
+    "toCheckpointId": "katsuura",
+    "distanceKm": 45,
+    "estimatedRideHours": 3.2,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "大原周辺"
+    ],
+    "sights": [
+      "太東岬",
+      "外房の海岸線"
+    ],
+    "bailoutPoints": [
+      "大原駅",
+      "御宿駅"
+    ],
+    "repairPoints": [
+      "勝浦周辺で要確認"
+    ],
+    "lodgingNotes": "短め。観光や遅め集合を入れやすい。"
+  },
+  {
+    "id": "kazusa-ichinomiya-ohara",
+    "fromCheckpointId": "kazusa-ichinomiya",
+    "toCheckpointId": "ohara",
+    "distanceKm": 22,
+    "estimatedRideHours": 1.6,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "一宮・大原周辺"
+    ],
+    "sights": [
+      "太東岬周辺",
+      "外房の海岸線"
+    ],
+    "bailoutPoints": [
+      "太東駅",
+      "大原駅"
+    ],
+    "repairPoints": [
+      "大原周辺で要確認"
+    ],
+    "lodgingNotes": "短距離。天候悪化時の切り上げ候補。"
+  },
+  {
+    "id": "ohara-onjuku",
+    "fromCheckpointId": "ohara",
+    "toCheckpointId": "onjuku",
+    "distanceKm": 14,
+    "estimatedRideHours": 1,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "御宿周辺"
+    ],
+    "sights": [
+      "御宿海岸"
+    ],
+    "bailoutPoints": [
+      "浪花駅",
+      "御宿駅"
+    ],
+    "repairPoints": [
+      "御宿周辺で要確認"
+    ],
+    "lodgingNotes": "短距離。観光・昼休憩を入れやすい。"
+  },
+  {
+    "id": "onjuku-katsuura",
+    "fromCheckpointId": "onjuku",
+    "toCheckpointId": "katsuura",
+    "distanceKm": 9,
+    "estimatedRideHours": 0.7,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "勝浦周辺"
+    ],
+    "sights": [
+      "勝浦の海岸線"
+    ],
+    "bailoutPoints": [
+      "御宿駅",
+      "勝浦駅"
+    ],
+    "repairPoints": [
+      "勝浦周辺で要確認"
+    ],
+    "lodgingNotes": "短距離。勝浦を休憩・合流地点として使いやすい。"
+  },
+  {
+    "id": "katsuura-tateyama",
+    "fromCheckpointId": "katsuura",
+    "toCheckpointId": "tateyama",
+    "distanceKm": 86,
+    "estimatedRideHours": 6.3,
+    "difficulty": "long",
+    "tripBias": "overnight",
+    "lunchSpots": [
+      "鴨川周辺"
+    ],
+    "sights": [
+      "鴨川",
+      "南房総の海岸線"
+    ],
+    "bailoutPoints": [
+      "安房鴨川駅",
+      "千倉駅"
+    ],
+    "repairPoints": [
+      "館山周辺で要確認"
+    ],
+    "lodgingNotes": "宿泊前提または鴨川で分割を検討。"
+  },
+  {
+    "id": "katsuura-kamogawa",
+    "fromCheckpointId": "katsuura",
+    "toCheckpointId": "kamogawa",
+    "distanceKm": 33,
+    "estimatedRideHours": 2.4,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "鴨川周辺"
+    ],
+    "sights": [
+      "鴨川",
+      "外房の海岸線"
+    ],
+    "bailoutPoints": [
+      "安房小湊駅",
+      "安房鴨川駅"
+    ],
+    "repairPoints": [
+      "鴨川周辺で要確認"
+    ],
+    "lodgingNotes": "鴨川泊の前後に使いやすい区間。"
+  },
+  {
+    "id": "kamogawa-chikura",
+    "fromCheckpointId": "kamogawa",
+    "toCheckpointId": "chikura",
+    "distanceKm": 35,
+    "estimatedRideHours": 2.6,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "和田浦・千倉周辺"
+    ],
+    "sights": [
+      "南房総の海岸線"
+    ],
+    "bailoutPoints": [
+      "和田浦駅",
+      "千倉駅"
+    ],
+    "repairPoints": [
+      "南房総周辺で要確認"
+    ],
+    "lodgingNotes": "鴨川から館山までを分割する中間区間。"
+  },
+  {
+    "id": "chikura-tateyama",
+    "fromCheckpointId": "chikura",
+    "toCheckpointId": "tateyama",
+    "distanceKm": 18,
+    "estimatedRideHours": 1.4,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "館山周辺"
+    ],
+    "sights": [
+      "南房総",
+      "館山湾"
+    ],
+    "bailoutPoints": [
+      "千倉駅",
+      "館山駅"
+    ],
+    "repairPoints": [
+      "館山周辺で要確認"
+    ],
+    "lodgingNotes": "館山泊または短距離調整に使いやすい。"
+  },
+  {
+    "id": "tateyama-kanaya-port",
+    "fromCheckpointId": "tateyama",
+    "toCheckpointId": "kanaya-port",
+    "distanceKm": 38,
+    "estimatedRideHours": 2.8,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "保田・金谷周辺"
+    ],
+    "sights": [
+      "館山湾",
+      "鋸山周辺"
+    ],
+    "bailoutPoints": [
+      "富浦駅",
+      "保田駅",
+      "浜金谷駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページの千葉県リストを要確認"
+    ],
+    "lodgingNotes": "フェリー接続と組み合わせやすい短距離。"
+  },
+  {
+    "id": "tateyama-tomiura",
+    "fromCheckpointId": "tateyama",
+    "toCheckpointId": "tomiura",
+    "distanceKm": 20,
+    "estimatedRideHours": 1.5,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "富浦周辺"
+    ],
+    "sights": [
+      "館山湾"
+    ],
+    "bailoutPoints": [
+      "館山駅",
+      "富浦駅"
+    ],
+    "repairPoints": [
+      "館山周辺で要確認"
+    ],
+    "lodgingNotes": "金谷港へ向かう前の短い調整区間。"
+  },
+  {
+    "id": "tomiura-kanaya-port",
+    "fromCheckpointId": "tomiura",
+    "toCheckpointId": "kanaya-port",
+    "distanceKm": 18,
+    "estimatedRideHours": 1.3,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "保田・金谷周辺"
+    ],
+    "sights": [
+      "鋸山周辺",
+      "東京湾フェリー"
+    ],
+    "bailoutPoints": [
+      "富浦駅",
+      "保田駅",
+      "浜金谷駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページの千葉県リストを要確認"
+    ],
+    "lodgingNotes": "フェリー時刻に合わせて調整しやすい短距離。"
+  },
+  {
+    "id": "kanaya-port-kurihama-port",
+    "fromCheckpointId": "kanaya-port",
+    "toCheckpointId": "kurihama-port",
+    "distanceKm": 12,
+    "estimatedRideHours": 1,
+    "difficulty": "ferry-link",
+    "tripBias": "transfer",
+    "lunchSpots": [
+      "金谷港または久里浜港"
+    ],
+    "sights": [
+      "東京湾フェリー"
+    ],
+    "bailoutPoints": [
+      "浜金谷駅",
+      "京急久里浜駅"
+    ],
+    "repairPoints": [],
+    "lodgingNotes": "自走距離ではなくフェリー接続。運航時刻と自転車料金を確認。"
+  },
+  {
+    "id": "kurihama-port-enoshima",
+    "fromCheckpointId": "kurihama-port",
+    "toCheckpointId": "enoshima",
+    "distanceKm": 45,
+    "estimatedRideHours": 3.4,
+    "difficulty": "standard",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "逗子・鎌倉周辺"
+    ],
+    "sights": [
+      "三浦半島",
+      "七里ヶ浜",
+      "江の島"
+    ],
+    "bailoutPoints": [
+      "横須賀中央駅",
+      "逗子駅",
+      "鎌倉駅"
+    ],
+    "repairPoints": [
+      "湘南エリアで要確認"
+    ],
+    "lodgingNotes": "観光混雑が読みにくいため余裕を持つ。"
+  },
+  {
+    "id": "enoshima-odawara",
+    "fromCheckpointId": "enoshima",
+    "toCheckpointId": "odawara",
+    "distanceKm": 42,
+    "estimatedRideHours": 3,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "茅ヶ崎・平塚周辺"
+    ],
+    "sights": [
+      "湘南海岸",
+      "小田原城周辺"
+    ],
+    "bailoutPoints": [
+      "藤沢駅",
+      "茅ヶ崎駅",
+      "平塚駅"
+    ],
+    "repairPoints": [
+      "小田原周辺で要確認"
+    ],
+    "lodgingNotes": "小田原拠点の帰宅負担が小さいため調整日にしやすい。"
+  },
+  {
+    "id": "odawara-ito",
+    "fromCheckpointId": "odawara",
+    "toCheckpointId": "ito",
+    "distanceKm": 58,
+    "estimatedRideHours": 4.5,
+    "difficulty": "standard",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "熱海周辺"
+    ],
+    "sights": [
+      "真鶴",
+      "熱海",
+      "伊東温泉"
+    ],
+    "bailoutPoints": [
+      "真鶴駅",
+      "熱海駅"
+    ],
+    "repairPoints": [
+      "伊東周辺で要確認"
+    ],
+    "lodgingNotes": "伊豆の起伏が入るため距離より疲労を重く見る。"
+  },
+  {
+    "id": "ito-shimoda",
+    "fromCheckpointId": "ito",
+    "toCheckpointId": "shimoda",
+    "distanceKm": 72,
+    "estimatedRideHours": 5.6,
+    "difficulty": "hilly-warning",
+    "tripBias": "overnight",
+    "lunchSpots": [
+      "河津周辺"
+    ],
+    "sights": [
+      "東伊豆",
+      "河津"
+    ],
+    "bailoutPoints": [
+      "伊豆高原駅",
+      "河津駅"
+    ],
+    "repairPoints": [
+      "伊豆急沿線で要確認"
+    ],
+    "lodgingNotes": "距離も起伏も重め。宿泊または途中分割を検討。"
+  },
+  {
+    "id": "shimoda-toi-port",
+    "fromCheckpointId": "shimoda",
+    "toCheckpointId": "toi-port",
+    "distanceKm": 84,
+    "estimatedRideHours": 6.8,
+    "difficulty": "hilly-long",
+    "tripBias": "overnight",
+    "lunchSpots": [
+      "松崎周辺"
+    ],
+    "sights": [
+      "西伊豆",
+      "恋人岬周辺"
+    ],
+    "bailoutPoints": [
+      "松崎方面の交通を要確認"
+    ],
+    "repairPoints": [
+      "西伊豆側で要確認"
+    ],
+    "lodgingNotes": "標準超過。西伊豆の宿泊込みで考える。"
+  },
+  {
+    "id": "toi-port-shimizu-port",
+    "fromCheckpointId": "toi-port",
+    "toCheckpointId": "shimizu-port",
+    "distanceKm": 31,
+    "estimatedRideHours": 1.5,
+    "difficulty": "ferry-link",
+    "tripBias": "transfer",
+    "lunchSpots": [
+      "土肥港または清水港"
+    ],
+    "sights": [
+      "駿河湾フェリー"
+    ],
+    "bailoutPoints": [
+      "清水駅"
+    ],
+    "repairPoints": [],
+    "lodgingNotes": "駿河湾フェリーの予約・自転車台数制限を確認。"
+  },
+  {
+    "id": "shimizu-port-yaizu",
+    "fromCheckpointId": "shimizu-port",
+    "toCheckpointId": "yaizu",
+    "distanceKm": 57,
+    "estimatedRideHours": 4,
+    "difficulty": "standard",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "用宗・焼津周辺"
+    ],
+    "sights": [
+      "三保",
+      "駿河湾"
+    ],
+    "bailoutPoints": [
+      "静岡駅",
+      "用宗駅"
+    ],
+    "repairPoints": [
+      "静岡・焼津周辺で要確認"
+    ],
+    "lodgingNotes": "標準距離。フェリー接続日と分けると楽。"
+  },
+  {
+    "id": "yaizu-hamamatsu",
+    "fromCheckpointId": "yaizu",
+    "toCheckpointId": "hamamatsu",
+    "distanceKm": 110,
+    "estimatedRideHours": 8,
+    "difficulty": "too-long",
+    "tripBias": "split-needed",
+    "lunchSpots": [
+      "御前崎・掛川方面で要分割"
+    ],
+    "sights": [
+      "御前崎",
+      "遠州灘"
+    ],
+    "bailoutPoints": [
+      "島田駅",
+      "掛川駅",
+      "袋井駅"
+    ],
+    "repairPoints": [
+      "浜松周辺で要確認"
+    ],
+    "lodgingNotes": "MVP上は強い警告。御前崎・掛川・袋井などで中間CP追加推奨。"
+  },
+  {
+    "id": "hamamatsu-irago",
+    "fromCheckpointId": "hamamatsu",
+    "toCheckpointId": "irago",
+    "distanceKm": 72,
+    "estimatedRideHours": 5.5,
+    "difficulty": "warning",
+    "tripBias": "overnight",
+    "lunchSpots": [
+      "豊橋・田原方面"
+    ],
+    "sights": [
+      "浜名湖",
+      "渥美半島",
+      "伊良湖岬"
+    ],
+    "bailoutPoints": [
+      "豊橋駅",
+      "三河田原駅"
+    ],
+    "repairPoints": [
+      "豊橋・田原周辺で要確認"
+    ],
+    "lodgingNotes": "70km超。豊橋鉄道・渥美線の自転車条件を確認。"
+  },
+  {
+    "id": "irago-toba",
+    "fromCheckpointId": "irago",
+    "toCheckpointId": "toba",
+    "distanceKm": 24,
+    "estimatedRideHours": 1.5,
+    "difficulty": "ferry-link",
+    "tripBias": "transfer",
+    "lunchSpots": [
+      "伊良湖港または鳥羽港"
+    ],
+    "sights": [
+      "伊勢湾フェリー"
+    ],
+    "bailoutPoints": [
+      "鳥羽駅"
+    ],
+    "repairPoints": [],
+    "lodgingNotes": "フェリー接続。運航本数を確認。"
+  },
+  {
+    "id": "toba-owase",
+    "fromCheckpointId": "toba",
+    "toCheckpointId": "owase",
+    "distanceKm": 124,
+    "estimatedRideHours": 9,
+    "difficulty": "too-long",
+    "tripBias": "split-needed",
+    "lunchSpots": [
+      "伊勢志摩・紀伊長島方面で要分割"
+    ],
+    "sights": [
+      "伊勢志摩",
+      "熊野灘"
+    ],
+    "bailoutPoints": [
+      "伊勢市駅",
+      "紀伊長島駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページの三重県リストを要確認"
+    ],
+    "lodgingNotes": "MVP上は強い警告。伊勢・紀伊長島などで中間CP追加推奨。"
+  },
+  {
+    "id": "owase-shingu",
+    "fromCheckpointId": "owase",
+    "toCheckpointId": "shingu",
+    "distanceKm": 64,
+    "estimatedRideHours": 4.8,
+    "difficulty": "standard",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "熊野市周辺"
+    ],
+    "sights": [
+      "鬼ヶ城",
+      "七里御浜"
+    ],
+    "bailoutPoints": [
+      "熊野市駅",
+      "新宮駅"
+    ],
+    "repairPoints": [
+      "尾鷲・熊野・新宮で要確認"
+    ],
+    "lodgingNotes": "標準距離。紀勢本線の本数に注意。"
+  },
+  {
+    "id": "shingu-kushimoto",
+    "fromCheckpointId": "shingu",
+    "toCheckpointId": "kushimoto",
+    "distanceKm": 58,
+    "estimatedRideHours": 4.4,
+    "difficulty": "standard",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "紀伊勝浦周辺"
+    ],
+    "sights": [
+      "那智勝浦",
+      "橋杭岩"
+    ],
+    "bailoutPoints": [
+      "紀伊勝浦駅",
+      "太地駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページの和歌山県リストを要確認"
+    ],
+    "lodgingNotes": "観光時間を入れやすい標準距離。"
+  },
+  {
+    "id": "kushimoto-shirahama",
+    "fromCheckpointId": "kushimoto",
+    "toCheckpointId": "shirahama",
+    "distanceKm": 65,
+    "estimatedRideHours": 4.8,
+    "difficulty": "standard",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "すさみ周辺"
+    ],
+    "sights": [
+      "本州最南端",
+      "南紀海岸"
+    ],
+    "bailoutPoints": [
+      "周参見駅",
+      "白浜駅"
+    ],
+    "repairPoints": [
+      "白浜周辺で要確認"
+    ],
+    "lodgingNotes": "標準距離。特急利用条件を確認。"
+  },
+  {
+    "id": "shirahama-gobo",
+    "fromCheckpointId": "shirahama",
+    "toCheckpointId": "gobo",
+    "distanceKm": 73,
+    "estimatedRideHours": 5.4,
+    "difficulty": "warning",
+    "tripBias": "overnight",
+    "lunchSpots": [
+      "田辺・南部周辺"
+    ],
+    "sights": [
+      "白崎海岸方面"
+    ],
+    "bailoutPoints": [
+      "紀伊田辺駅",
+      "南部駅"
+    ],
+    "repairPoints": [
+      "御坊周辺で要確認"
+    ],
+    "lodgingNotes": "70km超。田辺分割も候補。"
+  },
+  {
+    "id": "gobo-wakayama",
+    "fromCheckpointId": "gobo",
+    "toCheckpointId": "wakayama",
+    "distanceKm": 70,
+    "estimatedRideHours": 5.2,
+    "difficulty": "standard",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "湯浅・有田周辺"
+    ],
+    "sights": [
+      "白崎海岸",
+      "湯浅の街並み"
+    ],
+    "bailoutPoints": [
+      "湯浅駅",
+      "箕島駅",
+      "海南駅"
+    ],
+    "repairPoints": [
+      "和歌山周辺で要確認"
+    ],
+    "lodgingNotes": "標準上限。完走日として余裕を持つ。"
+  },
+  {
+    "id": "kurihama-port-miura-coast",
+    "fromCheckpointId": "kurihama-port",
+    "toCheckpointId": "miura-coast",
+    "distanceKm": 15,
+    "estimatedRideHours": 1.1,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "ソレイユの丘周辺"
+    ],
+    "sights": [
+      "ソレイユの丘"
+    ],
+    "bailoutPoints": [
+      "三崎口駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "過去走破済み。今後の計画ではソレイユの丘から再開する。"
+  },
+  {
+    "id": "miura-coast-kamakura",
+    "fromCheckpointId": "miura-coast",
+    "toCheckpointId": "kamakura",
+    "distanceKm": 20,
+    "estimatedRideHours": 1.6,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "逗子・鎌倉周辺"
+    ],
+    "sights": [
+      "三浦半島",
+      "鎌倉"
+    ],
+    "bailoutPoints": [
+      "逗子駅",
+      "鎌倉駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "観光混雑を見て鎌倉で切れる。"
+  },
+  {
+    "id": "kamakura-enoshima",
+    "fromCheckpointId": "kamakura",
+    "toCheckpointId": "enoshima",
+    "distanceKm": 10,
+    "estimatedRideHours": 0.8,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "七里ヶ浜・江の島周辺"
+    ],
+    "sights": [
+      "七里ヶ浜",
+      "江の島"
+    ],
+    "bailoutPoints": [
+      "鎌倉駅",
+      "片瀬江ノ島駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "湘南の混雑調整用の短距離区間。"
+  },
+  {
+    "id": "enoshima-chigasaki",
+    "fromCheckpointId": "enoshima",
+    "toCheckpointId": "chigasaki",
+    "distanceKm": 16,
+    "estimatedRideHours": 1.2,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "茅ヶ崎周辺"
+    ],
+    "sights": [
+      "湘南海岸"
+    ],
+    "bailoutPoints": [
+      "辻堂駅",
+      "茅ヶ崎駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "湘南区間を短く区切る候補。"
+  },
+  {
+    "id": "chigasaki-hiratsuka",
+    "fromCheckpointId": "chigasaki",
+    "toCheckpointId": "hiratsuka",
+    "distanceKm": 12,
+    "estimatedRideHours": 0.9,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "平塚周辺"
+    ],
+    "sights": [
+      "湘南海岸"
+    ],
+    "bailoutPoints": [
+      "茅ヶ崎駅",
+      "平塚駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "日帰りの開始・終了を微調整しやすい。"
+  },
+  {
+    "id": "hiratsuka-odawara",
+    "fromCheckpointId": "hiratsuka",
+    "toCheckpointId": "odawara",
+    "distanceKm": 14,
+    "estimatedRideHours": 1.1,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "大磯・小田原周辺"
+    ],
+    "sights": [
+      "大磯",
+      "小田原"
+    ],
+    "bailoutPoints": [
+      "大磯駅",
+      "小田原駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "小田原拠点に寄せる短い区間。"
+  },
+  {
+    "id": "odawara-manazuru",
+    "fromCheckpointId": "odawara",
+    "toCheckpointId": "manazuru",
+    "distanceKm": 19,
+    "estimatedRideHours": 1.5,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "真鶴周辺"
+    ],
+    "sights": [
+      "真鶴半島"
+    ],
+    "bailoutPoints": [
+      "根府川駅",
+      "真鶴駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "伊豆方面へ入る前の短距離調整。"
+  },
+  {
+    "id": "manazuru-atami",
+    "fromCheckpointId": "manazuru",
+    "toCheckpointId": "atami",
+    "distanceKm": 17,
+    "estimatedRideHours": 1.4,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "熱海周辺"
+    ],
+    "sights": [
+      "湯河原",
+      "熱海"
+    ],
+    "bailoutPoints": [
+      "湯河原駅",
+      "熱海駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "坂と交通量を見て熱海で切りやすい。"
+  },
+  {
+    "id": "atami-ito",
+    "fromCheckpointId": "atami",
+    "toCheckpointId": "ito",
+    "distanceKm": 22,
+    "estimatedRideHours": 1.7,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "伊東周辺"
+    ],
+    "sights": [
+      "伊豆東海岸"
+    ],
+    "bailoutPoints": [
+      "網代駅",
+      "伊東駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "伊東泊または日帰り終点にしやすい。"
+  },
+  {
+    "id": "ito-izu-kogen",
+    "fromCheckpointId": "ito",
+    "toCheckpointId": "izu-kogen",
+    "distanceKm": 22,
+    "estimatedRideHours": 1.8,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "伊豆高原周辺"
+    ],
+    "sights": [
+      "城ヶ崎海岸"
+    ],
+    "bailoutPoints": [
+      "伊豆高原駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "東伊豆の起伏区間を短く切る候補。"
+  },
+  {
+    "id": "izu-kogen-kawazu",
+    "fromCheckpointId": "izu-kogen",
+    "toCheckpointId": "kawazu",
+    "distanceKm": 31,
+    "estimatedRideHours": 2.4,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "河津周辺"
+    ],
+    "sights": [
+      "東伊豆海岸"
+    ],
+    "bailoutPoints": [
+      "伊豆熱川駅",
+      "河津駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "河津で宿泊・離脱を入れやすい。"
+  },
+  {
+    "id": "kawazu-shimoda",
+    "fromCheckpointId": "kawazu",
+    "toCheckpointId": "shimoda",
+    "distanceKm": 19,
+    "estimatedRideHours": 1.5,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "下田周辺"
+    ],
+    "sights": [
+      "白浜海岸",
+      "下田"
+    ],
+    "bailoutPoints": [
+      "河津駅",
+      "伊豆急下田駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "下田泊へつなぐ短距離区間。"
+  },
+  {
+    "id": "shimoda-matsuzaki",
+    "fromCheckpointId": "shimoda",
+    "toCheckpointId": "matsuzaki",
+    "distanceKm": 44,
+    "estimatedRideHours": 3.5,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "松崎周辺"
+    ],
+    "sights": [
+      "南伊豆",
+      "西伊豆"
+    ],
+    "bailoutPoints": [
+      "松崎方面のバスを要確認"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "西伊豆の交通が薄いため宿泊前提で確認。"
+  },
+  {
+    "id": "matsuzaki-toi-port",
+    "fromCheckpointId": "matsuzaki",
+    "toCheckpointId": "toi-port",
+    "distanceKm": 40,
+    "estimatedRideHours": 3.2,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "土肥周辺"
+    ],
+    "sights": [
+      "西伊豆海岸"
+    ],
+    "bailoutPoints": [
+      "土肥港"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "土肥港フェリー接続前の区間。"
+  },
+  {
+    "id": "shimizu-port-mochimune",
+    "fromCheckpointId": "shimizu-port",
+    "toCheckpointId": "mochimune",
+    "distanceKm": 32,
+    "estimatedRideHours": 2.3,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "用宗周辺"
+    ],
+    "sights": [
+      "三保",
+      "静岡海岸"
+    ],
+    "bailoutPoints": [
+      "静岡駅",
+      "用宗駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "フェリー後に短く終える候補。"
+  },
+  {
+    "id": "mochimune-yaizu",
+    "fromCheckpointId": "mochimune",
+    "toCheckpointId": "yaizu",
+    "distanceKm": 25,
+    "estimatedRideHours": 1.8,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "焼津周辺"
+    ],
+    "sights": [
+      "大崩海岸周辺"
+    ],
+    "bailoutPoints": [
+      "用宗駅",
+      "焼津駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "清水港から焼津を細かく分ける区間。"
+  },
+  {
+    "id": "yaizu-omaezaki",
+    "fromCheckpointId": "yaizu",
+    "toCheckpointId": "omaezaki",
+    "distanceKm": 54,
+    "estimatedRideHours": 4,
+    "difficulty": "standard",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "御前崎周辺"
+    ],
+    "sights": [
+      "御前崎",
+      "遠州灘"
+    ],
+    "bailoutPoints": [
+      "島田駅方面",
+      "掛川駅方面"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "御前崎泊で焼津-浜松の長距離を分割。"
+  },
+  {
+    "id": "omaezaki-iwata",
+    "fromCheckpointId": "omaezaki",
+    "toCheckpointId": "iwata",
+    "distanceKm": 31,
+    "estimatedRideHours": 2.3,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "磐田周辺"
+    ],
+    "sights": [
+      "遠州灘"
+    ],
+    "bailoutPoints": [
+      "掛川駅方面",
+      "磐田駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "遠州灘区間の短縮候補。"
+  },
+  {
+    "id": "iwata-hamamatsu",
+    "fromCheckpointId": "iwata",
+    "toCheckpointId": "hamamatsu",
+    "distanceKm": 25,
+    "estimatedRideHours": 1.9,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "浜松周辺"
+    ],
+    "sights": [
+      "天竜川河口周辺"
+    ],
+    "bailoutPoints": [
+      "磐田駅",
+      "浜松駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "浜松泊または日帰り終点にしやすい。"
+  },
+  {
+    "id": "hamamatsu-kosai",
+    "fromCheckpointId": "hamamatsu",
+    "toCheckpointId": "kosai",
+    "distanceKm": 25,
+    "estimatedRideHours": 1.9,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "浜名湖周辺"
+    ],
+    "sights": [
+      "浜名湖"
+    ],
+    "bailoutPoints": [
+      "舞阪駅",
+      "新居町駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "浜名湖側の短い調整区間。"
+  },
+  {
+    "id": "kosai-toyohashi",
+    "fromCheckpointId": "kosai",
+    "toCheckpointId": "toyohashi",
+    "distanceKm": 20,
+    "estimatedRideHours": 1.5,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "豊橋周辺"
+    ],
+    "sights": [
+      "表浜海岸"
+    ],
+    "bailoutPoints": [
+      "新所原駅",
+      "豊橋駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "豊橋の交通結節を使いやすい区間。"
+  },
+  {
+    "id": "toyohashi-tahara",
+    "fromCheckpointId": "toyohashi",
+    "toCheckpointId": "tahara",
+    "distanceKm": 13,
+    "estimatedRideHours": 1,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "田原周辺"
+    ],
+    "sights": [
+      "渥美半島"
+    ],
+    "bailoutPoints": [
+      "豊橋駅",
+      "三河田原駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "渥美線接続を使う短距離区間。"
+  },
+  {
+    "id": "tahara-irago",
+    "fromCheckpointId": "tahara",
+    "toCheckpointId": "irago",
+    "distanceKm": 17,
+    "estimatedRideHours": 1.3,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "伊良湖岬周辺"
+    ],
+    "sights": [
+      "伊良湖岬"
+    ],
+    "bailoutPoints": [
+      "三河田原駅方面",
+      "伊良湖港"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "フェリー時刻に合わせて調整しやすい。"
+  },
+  {
+    "id": "toba-ise",
+    "fromCheckpointId": "toba",
+    "toCheckpointId": "ise",
+    "distanceKm": 19,
+    "estimatedRideHours": 1.4,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "伊勢周辺"
+    ],
+    "sights": [
+      "伊勢志摩"
+    ],
+    "bailoutPoints": [
+      "鳥羽駅",
+      "伊勢市駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "フェリー後に伊勢で切る候補。"
+  },
+  {
+    "id": "ise-shima",
+    "fromCheckpointId": "ise",
+    "toCheckpointId": "shima",
+    "distanceKm": 35,
+    "estimatedRideHours": 2.7,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "志摩周辺"
+    ],
+    "sights": [
+      "伊勢志摩"
+    ],
+    "bailoutPoints": [
+      "鵜方駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "伊勢志摩内の宿泊候補。"
+  },
+  {
+    "id": "shima-kiinagashima",
+    "fromCheckpointId": "shima",
+    "toCheckpointId": "kiinagashima",
+    "distanceKm": 38,
+    "estimatedRideHours": 3,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "紀伊長島周辺"
+    ],
+    "sights": [
+      "熊野灘"
+    ],
+    "bailoutPoints": [
+      "紀伊長島駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "東紀州へ入る前後の宿泊候補。"
+  },
+  {
+    "id": "kiinagashima-owase",
+    "fromCheckpointId": "kiinagashima",
+    "toCheckpointId": "owase",
+    "distanceKm": 32,
+    "estimatedRideHours": 2.5,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "尾鷲周辺"
+    ],
+    "sights": [
+      "東紀州海岸"
+    ],
+    "bailoutPoints": [
+      "紀伊長島駅",
+      "尾鷲駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "尾鷲泊へつなぐ短め区間。"
+  },
+  {
+    "id": "owase-kumano",
+    "fromCheckpointId": "owase",
+    "toCheckpointId": "kumano",
+    "distanceKm": 32,
+    "estimatedRideHours": 2.5,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "熊野周辺"
+    ],
+    "sights": [
+      "鬼ヶ城",
+      "七里御浜"
+    ],
+    "bailoutPoints": [
+      "尾鷲駅",
+      "熊野市駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "熊野で切ると新宮まで軽くできる。"
+  },
+  {
+    "id": "kumano-shingu",
+    "fromCheckpointId": "kumano",
+    "toCheckpointId": "shingu",
+    "distanceKm": 32,
+    "estimatedRideHours": 2.4,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "新宮周辺"
+    ],
+    "sights": [
+      "七里御浜"
+    ],
+    "bailoutPoints": [
+      "熊野市駅",
+      "新宮駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "新宮泊または日帰り終点候補。"
+  },
+  {
+    "id": "shingu-kii-katsuura",
+    "fromCheckpointId": "shingu",
+    "toCheckpointId": "kii-katsuura",
+    "distanceKm": 22,
+    "estimatedRideHours": 1.6,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "紀伊勝浦周辺"
+    ],
+    "sights": [
+      "那智勝浦"
+    ],
+    "bailoutPoints": [
+      "新宮駅",
+      "紀伊勝浦駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "観光・宿泊を入れやすい短距離区間。"
+  },
+  {
+    "id": "kii-katsuura-kushimoto",
+    "fromCheckpointId": "kii-katsuura",
+    "toCheckpointId": "kushimoto",
+    "distanceKm": 36,
+    "estimatedRideHours": 2.7,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "串本周辺"
+    ],
+    "sights": [
+      "太地",
+      "橋杭岩"
+    ],
+    "bailoutPoints": [
+      "紀伊勝浦駅",
+      "串本駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "紀伊勝浦泊から串本へつなぐ区間。"
+  },
+  {
+    "id": "kushimoto-susami",
+    "fromCheckpointId": "kushimoto",
+    "toCheckpointId": "susami",
+    "distanceKm": 32,
+    "estimatedRideHours": 2.4,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "すさみ周辺"
+    ],
+    "sights": [
+      "本州最南端周辺"
+    ],
+    "bailoutPoints": [
+      "串本駅",
+      "周参見駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "串本-白浜を分割する候補。"
+  },
+  {
+    "id": "susami-shirahama",
+    "fromCheckpointId": "susami",
+    "toCheckpointId": "shirahama",
+    "distanceKm": 33,
+    "estimatedRideHours": 2.5,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "白浜周辺"
+    ],
+    "sights": [
+      "南紀海岸",
+      "白浜"
+    ],
+    "bailoutPoints": [
+      "周参見駅",
+      "白浜駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "白浜泊へつなぐ標準より短い区間。"
+  },
+  {
+    "id": "shirahama-tanabe",
+    "fromCheckpointId": "shirahama",
+    "toCheckpointId": "tanabe",
+    "distanceKm": 23,
+    "estimatedRideHours": 1.7,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "田辺周辺"
+    ],
+    "sights": [
+      "白浜",
+      "田辺"
+    ],
+    "bailoutPoints": [
+      "白浜駅",
+      "紀伊田辺駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "白浜から田辺へ短く移動する調整区間。"
+  },
+  {
+    "id": "tanabe-minabe",
+    "fromCheckpointId": "tanabe",
+    "toCheckpointId": "minabe",
+    "distanceKm": 15,
+    "estimatedRideHours": 1.1,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "南部周辺"
+    ],
+    "sights": [
+      "紀州海岸"
+    ],
+    "bailoutPoints": [
+      "紀伊田辺駅",
+      "南部駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "悪天候時の短縮候補。"
+  },
+  {
+    "id": "minabe-gobo",
+    "fromCheckpointId": "minabe",
+    "toCheckpointId": "gobo",
+    "distanceKm": 35,
+    "estimatedRideHours": 2.6,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "御坊周辺"
+    ],
+    "sights": [
+      "紀州海岸"
+    ],
+    "bailoutPoints": [
+      "南部駅",
+      "御坊駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "御坊泊または日帰り終点にしやすい。"
+  },
+  {
+    "id": "gobo-yuasa",
+    "fromCheckpointId": "gobo",
+    "toCheckpointId": "yuasa",
+    "distanceKm": 30,
+    "estimatedRideHours": 2.2,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "湯浅周辺"
+    ],
+    "sights": [
+      "湯浅の街並み"
+    ],
+    "bailoutPoints": [
+      "御坊駅",
+      "湯浅駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "御坊と和歌山の間を分割する候補。"
+  },
+  {
+    "id": "yuasa-wakayama",
+    "fromCheckpointId": "yuasa",
+    "toCheckpointId": "wakayama",
+    "distanceKm": 40,
+    "estimatedRideHours": 3,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "海南・和歌山周辺"
+    ],
+    "sights": [
+      "有田・和歌山"
+    ],
+    "bailoutPoints": [
+      "湯浅駅",
+      "海南駅",
+      "和歌山駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "完走日に余裕を残す最終区間候補。"
+  },
+  {
+    "id": "toi-port-numazu",
+    "fromCheckpointId": "toi-port",
+    "toCheckpointId": "numazu",
+    "distanceKm": 52,
+    "estimatedRideHours": 4.2,
+    "difficulty": "hilly-standard",
+    "tripBias": "overnight",
+    "lunchSpots": [
+      "戸田・大瀬崎・沼津周辺"
+    ],
+    "sights": [
+      "西伊豆海岸",
+      "大瀬崎",
+      "駿河湾"
+    ],
+    "bailoutPoints": [
+      "戸田方面バス",
+      "沼津駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "土肥港からフェリーを使わず北側へ回る場合の区間。沼津泊で次日を組みやすい。",
+    "weatherNotes": "海沿いと岬まわりの風、アップダウンを見込む。"
+  },
+  {
+    "id": "numazu-fuji",
+    "fromCheckpointId": "numazu",
+    "toCheckpointId": "fuji",
+    "distanceKm": 27,
+    "estimatedRideHours": 2,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "田子の浦・富士周辺"
+    ],
+    "sights": [
+      "千本浜",
+      "田子の浦"
+    ],
+    "bailoutPoints": [
+      "沼津駅",
+      "吉原駅",
+      "富士駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "沼津-清水港を細かく分割する中間区間。",
+    "weatherNotes": "市街地・海沿いの交通量を確認。"
+  },
+  {
+    "id": "fuji-shimizu-port",
+    "fromCheckpointId": "fuji",
+    "toCheckpointId": "shimizu-port",
+    "distanceKm": 35,
+    "estimatedRideHours": 2.6,
+    "difficulty": "easy",
+    "tripBias": "day-trip",
+    "lunchSpots": [
+      "由比・蒲原・清水周辺"
+    ],
+    "sights": [
+      "富士川",
+      "由比",
+      "清水港"
+    ],
+    "bailoutPoints": [
+      "富士駅",
+      "由比駅",
+      "清水駅"
+    ],
+    "repairPoints": [
+      "公式トラブルページで要確認"
+    ],
+    "lodgingNotes": "清水港へつなぐ調整区間。フェリー案と自走案を比較できる。",
+    "weatherNotes": "海沿いの風と国道沿いの交通量を確認。"
+  }
+]

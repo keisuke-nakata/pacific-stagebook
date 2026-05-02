@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "description": "Data manifest for pacific-stagebook. Edit the referenced JSON files instead of this file.",
+  "files": {
+    "meta": "meta.json",
+    "members": "members.json",
+    "checkpoints": "checkpoints.json",
+    "segments": "segments.json",
+    "accessOptions": "accessOptions.json",
+    "plans": "plans.json",
+    "rides": "rides.json"
+  }
+}

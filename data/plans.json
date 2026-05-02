@@ -1,0 +1,488 @@
+[
+  {
+    "id": "first-ride",
+    "name": "初回: 銚子 -> 上総一ノ宮",
+    "checkpointIds": [
+      "choshi",
+      "kazusa-ichinomiya"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "choshi-kazusa-ichinomiya"
+        ],
+        "targetDistanceKm": 80,
+        "notes": "初回の日帰り計画。標準50-70kmより長いため帰路時間を可視化する。"
+      }
+    ],
+    "status": "planned",
+    "notes": "初回予定。天候と風向き次第で短縮・離脱を検討。"
+  },
+  {
+    "id": "second-ride",
+    "name": "2回目: 上総一ノ宮 -> 金谷港",
+    "checkpointIds": [
+      "kazusa-ichinomiya",
+      "kanaya-port"
+    ],
+    "tripMode": "overnight",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "kazusa-ichinomiya-ohara",
+          "ohara-onjuku",
+          "onjuku-katsuura",
+          "katsuura-kamogawa"
+        ],
+        "targetDistanceKm": 78,
+        "lodgingBase": "鴨川",
+        "lodgingCandidates": [
+          "安房鴨川駅周辺",
+          "鴨川温泉周辺"
+        ],
+        "lodgingNotes": "宿の詳細情報は公開データに入れない。駅周辺か温泉側かだけを計画メモに残す。",
+        "notes": "上総一ノ宮から鴨川まで。長めなので集合時刻と昼休憩を詰める。"
+      },
+      {
+        "label": "Day 2",
+        "segmentIds": [
+          "kamogawa-chikura",
+          "chikura-tateyama",
+          "tateyama-tomiura",
+          "tomiura-kanaya-port"
+        ],
+        "targetDistanceKm": 91,
+        "notes": "鴨川から金谷港まで。1泊2日にまとめるため長め。フェリー時刻と離脱手段を先に確認する。"
+      }
+    ],
+    "status": "planned",
+    "notes": "2回目予定。鴨川で1泊し、天候と風向き次第で短縮・離脱を検討。"
+  },
+  {
+    "id": "third-ride",
+    "name": "3回目: ソレイユの丘 -> 小田原",
+    "checkpointIds": [
+      "miura-coast",
+      "odawara"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "miura-coast-kamakura",
+          "kamakura-enoshima",
+          "enoshima-chigasaki",
+          "chigasaki-hiratsuka",
+          "hiratsuka-odawara"
+        ],
+        "targetDistanceKm": 72,
+        "notes": "久里浜港からソレイユの丘までは過去走破済みとしてスキップ。湘南の混雑を見て早めに出る。"
+      }
+    ],
+    "status": "draft",
+    "notes": "金谷港後はソレイユの丘スタート扱い。日帰り優先の暫定計画。"
+  },
+  {
+    "id": "fourth-ride",
+    "name": "4回目: 真鶴 -> 伊東",
+    "checkpointIds": [
+      "manazuru",
+      "ito"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "manazuru-atami",
+          "atami-ito"
+        ],
+        "targetDistanceKm": 39,
+        "notes": "小田原から真鶴までは過去走破済みとしてスキップ。坂と交通量を見て短めにする。"
+      }
+    ],
+    "status": "draft",
+    "notes": "小田原後は真鶴スタート扱い。伊豆入口の短め日帰り。"
+  },
+  {
+    "id": "fifth-ride",
+    "name": "5回目: 伊東 -> 下田",
+    "checkpointIds": [
+      "ito",
+      "shimoda"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "ito-izu-kogen",
+          "izu-kogen-kawazu",
+          "kawazu-shimoda"
+        ],
+        "targetDistanceKm": 72,
+        "notes": "東伊豆の起伏込みで長め。伊豆高原・河津での短縮を残す。"
+      }
+    ],
+    "status": "draft",
+    "notes": "日帰り優先だが70km超。天候と輪行帰宅時刻を先に確認。"
+  },
+  {
+    "id": "sixth-ride",
+    "name": "6回目: 下田 -> 土肥港",
+    "checkpointIds": [
+      "shimoda",
+      "toi-port"
+    ],
+    "tripMode": "overnight",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "shimoda-matsuzaki"
+        ],
+        "targetDistanceKm": 44,
+        "lodgingBase": "松崎",
+        "lodgingCandidates": [
+          "松崎周辺"
+        ],
+        "lodgingNotes": "西伊豆は鉄道が薄いため、宿泊前提で無理なく分割する。",
+        "notes": "下田から松崎まで。西伊豆の交通条件を先に確認。"
+      },
+      {
+        "label": "Day 2",
+        "segmentIds": [
+          "matsuzaki-toi-port"
+        ],
+        "targetDistanceKm": 40,
+        "notes": "松崎から土肥港まで。フェリー時刻または翌計画への接続を確認。"
+      }
+    ],
+    "status": "draft",
+    "notes": "西伊豆はアクセスが薄いため宿泊扱い。"
+  },
+  {
+    "id": "seventh-ride",
+    "name": "7回目: 土肥港 -> 沼津",
+    "checkpointIds": [
+      "toi-port",
+      "numazu"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "toi-port-numazu"
+        ],
+        "targetDistanceKm": 52,
+        "notes": "駿河湾北側を自走する案。土肥港へのアクセスを先に確認。"
+      }
+    ],
+    "status": "draft",
+    "notes": "フェリーではなく北側自走を前提にした暫定日帰り。"
+  },
+  {
+    "id": "eighth-ride",
+    "name": "8回目: 沼津 -> 清水港",
+    "checkpointIds": [
+      "numazu",
+      "shimizu-port"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "numazu-fuji",
+          "fuji-shimizu-port"
+        ],
+        "targetDistanceKm": 62,
+        "notes": "富士市・由比を経由して清水港へ。風と国道沿いの交通量を確認。"
+      }
+    ],
+    "status": "draft",
+    "notes": "沼津・富士を入れた駿河湾北側の日帰り計画。"
+  },
+  {
+    "id": "ninth-ride",
+    "name": "9回目: 清水港 -> 焼津",
+    "checkpointIds": [
+      "shimizu-port",
+      "yaizu"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "shimizu-port-mochimune",
+          "mochimune-yaizu"
+        ],
+        "targetDistanceKm": 57,
+        "notes": "標準距離。用宗を休憩・短縮候補にする。"
+      }
+    ],
+    "status": "draft",
+    "notes": "清水港から焼津までの標準日帰り。"
+  },
+  {
+    "id": "tenth-ride",
+    "name": "10回目: 焼津 -> 浜松",
+    "checkpointIds": [
+      "yaizu",
+      "hamamatsu"
+    ],
+    "tripMode": "overnight",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "yaizu-omaezaki"
+        ],
+        "targetDistanceKm": 54,
+        "lodgingBase": "御前崎",
+        "lodgingCandidates": [
+          "御前崎周辺"
+        ],
+        "lodgingNotes": "焼津-浜松を日帰りでつなぐと長すぎるため御前崎で分割する。",
+        "notes": "焼津から御前崎まで。遠州灘の風を確認。"
+      },
+      {
+        "label": "Day 2",
+        "segmentIds": [
+          "omaezaki-iwata",
+          "iwata-hamamatsu"
+        ],
+        "targetDistanceKm": 56,
+        "notes": "御前崎から浜松まで。磐田で短縮・離脱可能。"
+      }
+    ],
+    "status": "draft",
+    "notes": "焼津-浜松は距離的に宿泊扱い。"
+  },
+  {
+    "id": "eleventh-ride",
+    "name": "11回目: 浜松 -> 豊橋",
+    "checkpointIds": [
+      "hamamatsu",
+      "toyohashi"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "hamamatsu-kosai",
+          "kosai-toyohashi"
+        ],
+        "targetDistanceKm": 45,
+        "notes": "浜名湖・湖西を経由。豊橋を交通結節点として使う。"
+      }
+    ],
+    "status": "draft",
+    "notes": "日帰り優先の浜名湖西側計画。"
+  },
+  {
+    "id": "twelfth-ride",
+    "name": "12回目: 豊橋 -> 伊良湖岬",
+    "checkpointIds": [
+      "toyohashi",
+      "irago"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "toyohashi-tahara",
+          "tahara-irago"
+        ],
+        "targetDistanceKm": 30,
+        "notes": "渥美半島を短めに走り、伊良湖港のフェリー時刻を確認する。"
+      }
+    ],
+    "status": "draft",
+    "notes": "フェリー接続前の短め日帰り。"
+  },
+  {
+    "id": "thirteenth-ride",
+    "name": "13回目: 伊良湖岬 -> 伊勢",
+    "checkpointIds": [
+      "irago",
+      "ise"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "irago-toba",
+          "toba-ise"
+        ],
+        "targetDistanceKm": 43,
+        "notes": "伊勢湾フェリー込み。鳥羽から伊勢まで走り、フェリー運航本数を確認。"
+      }
+    ],
+    "status": "draft",
+    "notes": "フェリー接続を含む日帰り想定。"
+  },
+  {
+    "id": "fourteenth-ride",
+    "name": "14回目: 伊勢 -> 志摩",
+    "checkpointIds": [
+      "ise",
+      "shima"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "ise-shima"
+        ],
+        "targetDistanceKm": 35,
+        "notes": "伊勢志摩内を短めに区切る。観光時間を入れやすい。"
+      }
+    ],
+    "status": "draft",
+    "notes": "短めの日帰り候補。"
+  },
+  {
+    "id": "fifteenth-ride",
+    "name": "15回目: 志摩 -> 尾鷲",
+    "checkpointIds": [
+      "shima",
+      "owase"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "shima-kiinagashima",
+          "kiinagashima-owase"
+        ],
+        "targetDistanceKm": 70,
+        "notes": "標準上限。紀伊長島で短縮可能にしておく。"
+      }
+    ],
+    "status": "draft",
+    "notes": "日帰り優先だが山側条件と鉄道本数を確認。"
+  },
+  {
+    "id": "sixteenth-ride",
+    "name": "16回目: 尾鷲 -> 新宮",
+    "checkpointIds": [
+      "owase",
+      "shingu"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "owase-kumano",
+          "kumano-shingu"
+        ],
+        "targetDistanceKm": 64,
+        "notes": "熊野を中間候補にして、紀勢本線の本数を確認する。"
+      }
+    ],
+    "status": "draft",
+    "notes": "標準距離の日帰り候補。"
+  },
+  {
+    "id": "seventeenth-ride",
+    "name": "17回目: 新宮 -> 串本",
+    "checkpointIds": [
+      "shingu",
+      "kushimoto"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "shingu-kii-katsuura",
+          "kii-katsuura-kushimoto"
+        ],
+        "targetDistanceKm": 58,
+        "notes": "紀伊勝浦を休憩・観光・短縮候補にする。"
+      }
+    ],
+    "status": "draft",
+    "notes": "標準距離の日帰り候補。"
+  },
+  {
+    "id": "eighteenth-ride",
+    "name": "18回目: 串本 -> 白浜",
+    "checkpointIds": [
+      "kushimoto",
+      "shirahama"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "kushimoto-susami",
+          "susami-shirahama"
+        ],
+        "targetDistanceKm": 65,
+        "notes": "すさみを中間候補にし、白浜で終える。"
+      }
+    ],
+    "status": "draft",
+    "notes": "標準距離の日帰り候補。"
+  },
+  {
+    "id": "nineteenth-ride",
+    "name": "19回目: 白浜 -> 御坊",
+    "checkpointIds": [
+      "shirahama",
+      "gobo"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "shirahama-tanabe",
+          "tanabe-minabe",
+          "minabe-gobo"
+        ],
+        "targetDistanceKm": 73,
+        "notes": "70km超。田辺・南部で短縮できるようにしておく。"
+      }
+    ],
+    "status": "draft",
+    "notes": "日帰り優先だが距離は注意。"
+  },
+  {
+    "id": "twentieth-ride",
+    "name": "20回目: 御坊 -> 和歌山",
+    "checkpointIds": [
+      "gobo",
+      "wakayama"
+    ],
+    "tripMode": "dayTrip",
+    "days": [
+      {
+        "label": "Day 1",
+        "segmentIds": [
+          "gobo-yuasa",
+          "yuasa-wakayama"
+        ],
+        "targetDistanceKm": 70,
+        "notes": "完走日。湯浅を中間候補にして余裕を持つ。"
+      }
+    ],
+    "status": "draft",
+    "notes": "和歌山完走に向けた最終日帰り計画。"
+  }
+]

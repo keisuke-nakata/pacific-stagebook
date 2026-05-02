@@ -1,0 +1,24 @@
+[
+  {
+    "date": "未記録",
+    "participants": [],
+    "segmentIds": [
+      "kurihama-port-miura-coast"
+    ],
+    "completionStatus": "complete",
+    "actualDistanceKm": 15,
+    "notes": "久里浜港からソレイユの丘までは過去走破済み。金谷港後の計画ではソレイユの丘スタート扱い。",
+    "evidenceUrl": ""
+  },
+  {
+    "date": "未記録",
+    "participants": [],
+    "segmentIds": [
+      "odawara-manazuru"
+    ],
+    "completionStatus": "complete",
+    "actualDistanceKm": 19,
+    "notes": "小田原から真鶴までは過去走破済み。小田原後の計画では真鶴スタート扱い。",
+    "evidenceUrl": ""
+  }
+]

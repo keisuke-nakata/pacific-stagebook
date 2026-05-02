@@ -1,0 +1,17 @@
+[
+  {
+    "id": "odawara",
+    "displayName": "小田原",
+    "homeBaseStation": "小田原"
+  },
+  {
+    "id": "komagome",
+    "displayName": "駒込",
+    "homeBaseStation": "駒込"
+  },
+  {
+    "id": "todakoen",
+    "displayName": "戸田公園",
+    "homeBaseStation": "戸田公園"
+  }
+]

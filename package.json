@@ -1,0 +1,12 @@
+{
+  "name": "pacific-stagebook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:kml": "node scripts/import-kml.mjs",
+    "privacy:check": "node --test tests/privacy-check.test.mjs",
+    "test": "node --test",
+    "serve": "python3 -m http.server 4173"
+  }
+}

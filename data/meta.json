@@ -1,0 +1,15 @@
+{
+  "appName": "pacific-stagebook",
+  "routeName": "太平洋岸自転車道 Pacific Cycling Road",
+  "direction": "銚子から和歌山",
+  "officialDistanceKm": 1487,
+  "dataPolicy": "公開GitHub Pages前提。詳細住所、予約情報、厳密な未来日程は保存しない。",
+  "lastUpdated": "2026-05-02",
+  "sourceUrls": {
+    "officialTop": "https://www.kkr.mlit.go.jp/road/pcr/index.html",
+    "routeMap": "https://www.kkr.mlit.go.jp/road/pcr/map/index.html",
+    "cycleTrainFerry": "https://www.kkr.mlit.go.jp/road/pcr/cycletrain/index.html",
+    "troubleRepair": "https://www.kkr.mlit.go.jp/road/pcr/trouble/cycleshop.html",
+    "githubPages": "https://docs.github.com/pages/getting-started-with-github-pages"
+  }
+}
